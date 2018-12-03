@@ -14,7 +14,7 @@ body{
 .ganesh-img {
 height: 400px;
 width: 300px;
-margin-left: 355px;
+margin-left: 500px;
 padding-top: 0px;
 position: relative;
 animation: mymove 5s;
@@ -42,7 +42,7 @@ animation-timing-function: ease-out;
 }
 .invitiation-text {
   position: absolute;
-  top: 10px;
+  
   position: absolute;
   top: 182px;
   left: -727px;
@@ -78,7 +78,7 @@ animation-timing-function: ease-out;
     position: absolute;
     top: -170px;
     margin: auto;
-    left: 478px;
+    left: 610px;
     font-family: 'Rouge Script', cursive;
     animation: groom-name 12s;
     animation-iteration-count: 1;
@@ -94,11 +94,11 @@ animation-timing-function: ease-out;
   }
  
   80%{
-    top: 100px;
+    top: 90px;
     opacity: 1;
   }
   100%{
-    top: 100px;
+    top: 90px;
      opacity: 0;
   }
 
@@ -144,7 +144,7 @@ width: 100%;
     font-size: 50px;
     position: absolute;
     top: -170px;
-    left: 476px;
+    left: 625px;
     font-family: 'Rouge Script', cursive;
     margin: auto;
     animation: bride-name 9s;
@@ -160,11 +160,11 @@ width: 100%;
     opacity: 1;
     }
     80%{
-      top: 340px;
+      top: 350px;
       opacity: 1;
     }
     100%{
-      top: 340px;
+      top: 350px;
       opacity: 0;
     }
 }
@@ -207,7 +207,7 @@ animation-delay: 16s;
     position: absolute;
     margin: auto;
     margin-top: -80px;
-    left: 450px;
+    left: 600px;
     top: -215px;
     animation: kalash 9s;
     animation-iteration-count: 1;
@@ -242,7 +242,7 @@ animation-delay: 16s;
     position: absolute;
     top: 120px;
     font-size: 40px;
-    left: 1355px;
+    right: -400px;
 
     animation: wedding-ceremony 8s;
 animation-iteration-count: 1;
@@ -254,15 +254,15 @@ animation-delay: 25s;
 @keyframes wedding-ceremony {
  
   0% {
-      left: 500px;
+      right: 0px;
   opacity: 0;
   }
   80%{
-    left: 500px;
+    right: 300px;
     opacity: 1;
   }
   100%{
-    left: 500px;
+    right: 300px;
     opacity: 0;
   }
 }
@@ -272,7 +272,7 @@ width: 300px;
 
 position: absolute;
 top: 80px;
-right: 1830px;
+left: -300px;
 
 animation: knot-pic 8s;
 animation-iteration-count: 1;
@@ -284,15 +284,15 @@ animation-delay: 25s;
 @keyframes knot-pic {
  
   0% {
-      right: 700px;
+      left: 0px;
   opacity: 0;
   }
   80%{
-    right: 700px;
+    left: 300px;
     opacity: 1;
   }
   100%{
-    right: 700px;
+    left: 300px;
     opacity: 0;
   }
 }
