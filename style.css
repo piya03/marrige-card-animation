@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background-image:url("image/card-edit11.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    margin: 0px;
+}
+.ganesh-img {
+height: 400px;
+width: 300px;
+margin-left: 355px;
+padding-top: 0px;
+position: relative;
+animation: mymove 5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+}
+@keyframes mymove {
+    0% {top: 0px;
+    opacity: 1;}
+    60% {
+        top: 70px;
+    opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        top: 70px;
+    }
+}
+
+.message {
+  font-weight: 400;
+  font-family: 'Rouge Script', cursive;
+  font-size: 50px;
+}
+.invitiation-text {
+  position: absolute;
+  top: 10px;
+  position: absolute;
+  top: 182px;
+  left: -727px;
+  animation: invitation-txt-animation 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 6s;
+}
+
+@keyframes invitation-txt-animation {
+  0% {
+  opacity: 1;}
+  60% {
+      left: 400px;
+  opacity: 1;
+  }
+  70% {
+      opacity: 1;
+      left: 480px;
+  }
+  80% {
+    opacity: 1;
+    left: 350px;
+ }
+ 100% {
+  opacity: 0;
+  left: 400px;
+}
+}
+.groom{
+    font-size: 50px;
+    position: absolute;
+    top: -170px;
+    margin: auto;
+    left: 478px;
+    font-family: 'Rouge Script', cursive;
+    animation: groom-name 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 12s;
+}
+@keyframes groom-name {
+ 
+  0% {
+      top: -110px;
+  opacity: 1;
+  }
+ 
+  80%{
+    top: 100px;
+    opacity: 1;
+  }
+  100%{
+    top: 100px;
+     opacity: 0;
+  }
+
+}
+.groom-pic{
+height: 400px;
+width: 340px;
+position: absolute;
+top: 70px;
+left: -355px;
+animation: groom-photo 12s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+animation-delay: 13s;
+}
+
+@keyframes groom-photo {
+ 
+  0% {
+      left: 70px;
+  opacity: 0;
+  }
+ 
+  80%{
+    left: 100px;
+    opacity: 1;
+  }
+  100%
+  {
+    left: 100px;
+    opacity: 0;
+  }
+}
+.groom-pic img {
+height: 100%;
+width: 100%;
+}
+.text{
+  font-size: 20px;
+}
+  .bride{
+    font-size: 50px;
+    position: absolute;
+    top: -170px;
+    left: 476px;
+    font-family: 'Rouge Script', cursive;
+    margin: auto;
+    animation: bride-name 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 16s;
+  }
+  @keyframes bride-name {
+ 
+    0% {
+        top: 200px;
+    opacity: 1;
+    }
+    80%{
+      top: 340px;
+      opacity: 1;
+    }
+    100%{
+      top: 340px;
+      opacity: 0;
+    }
+}
+.bride-pic{
+  height: 360px;
+width: 340px;
+position: absolute;
+top: 70px;
+right: -352px;
+animation: bride-photo 9s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+animation-delay: 16s;
+
+}
+
+@keyframes bride-photo {
+ 
+  0% {
+      right: 70px;
+  opacity: 0;
+  }
+  80%{
+    right: 100px;
+    opacity: 1;
+  }
+100%{
+  right: 100px;
+  opacity: 0;
+}
+}
+.bride-pic img {
+  height: 100%;
+  width: 100%;
+}
+.kalash-img{
+    height: 206px;
+    width: 180px;
+    position: absolute;
+    margin: auto;
+    margin-top: -80px;
+    left: 450px;
+    top: -215px;
+    animation: kalash 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 16s;
+}
+@keyframes kalash {
+  0%{
+    top: 230px;
+    opacity: 0;
+  
+}
+  80%{
+    top: 230px;
+    opacity: 1;
+  
+}
+100%{
+  top: 230px;
+  opacity:0;
+}
+}
+.kalash-img img {
+  height: 100%;
+  width: 100%;
+}
+.wedding-ceremony {
+  /* height: 100px;
+    width: 700px; */
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    left: 1355px;
+
+    animation: wedding-ceremony 8s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+animation-delay: 25s;
+
+}
+@keyframes wedding-ceremony {
+ 
+  0% {
+      left: 500px;
+  opacity: 0;
+  }
+  80%{
+    left: 500px;
+    opacity: 1;
+  }
+  100%{
+    left: 500px;
+    opacity: 0;
+  }
+}
+.knot-pic{
+height: 400px;
+width: 300px;
+
+position: absolute;
+top: 80px;
+right: 1830px;
+
+animation: knot-pic 8s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+animation-delay: 25s;
+}
+
+@keyframes knot-pic {
+ 
+  0% {
+      right: 700px;
+  opacity: 0;
+  }
+  80%{
+    right: 700px;
+    opacity: 1;
+  }
+  100%{
+    right: 700px;
+    opacity: 0;
+  }
+}
+.knot-pic img{
+  height: 100%;
+  width: 100%;
+}
+.couple {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  left: -320px;
+
+  animation: couple 12s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease-out;
+animation-delay: 32s;
+}
+@keyframes couple {
+ 
+  0% {
+      left: 100px;
+  opacity: 0;
+  }
+  80%{
+    left: 100px;
+    opacity: 1;
+  }
+  100%{
+    left: 100px;
+    opacity: 1;
+  }
+}
+.couple img {
+  height: 100%;
+  width: 100%;
+}
+.date {
+  height: auto;
+    width: auto;
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    right: -620px;
+
+    animation: date 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 32s;
+}
+@keyframes date {
+ 
+  0% {
+      left: right;
+  opacity: 0;
+  }
+  80%{
+    right: 100px;
+    opacity: 1;
+  }
+ 100%{
+   right: 100px;
+   opacity: 1;
+ }
+}
+.flower-shower {
+  height: 100vh;
+}
+.flower1 {
+  
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  bottom: 0px;
+  animation: flowershower1 10s infinite linear;
+  animation-delay: 38s;
+}
+
+.flower2 {
+  /* background: url("image/flower-shower2-trans.png"); */
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  bottom: 0px;
+  animation: flowershower2 10s infinite linear;
+  animation-delay: 38s;
+}
+
+@keyframes flowershower1 {
+  0% {
+    background: url("image/petal-trans.png");
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    
+  }
+  100% {
+    background: url("image/petal-trans.png");
+    background-position: 100px 650px;
+    background-repeat: repeat;
+  }
+}
+
+
+@keyframes flowershower2 {
+  0% {
+    background: url("image/petal-trans.png");
+    background-position: 0px -100px;
+    background-repeat: repeat;
+  }
+  100% {
+    background: url("image/petal-trans.png");
+    background-position: 0px 650px;
+    background-repeat: repeat;
+  }
+}
