@@ -17,7 +17,7 @@ width: 300px;
 margin-left: 500px;
 padding-top: 0px;
 position: relative;
-animation: mymove 5s;
+animation: mymove 8s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 animation-timing-function: ease-out;
@@ -26,12 +26,12 @@ animation-timing-function: ease-out;
     0% {top: 0px;
     opacity: 1;}
     60% {
-        top: 70px;
+        top: 100px;
     opacity: 1;
     }
     100% {
         opacity: 0;
-        top: 70px;
+        top: 100px;
     }
 }
 
@@ -70,7 +70,7 @@ animation-timing-function: ease-out;
  }
  100% {
   opacity: 0;
-  left: 400px;
+  left: 480px;
 }
 }
 .groom{
@@ -80,7 +80,7 @@ animation-timing-function: ease-out;
     margin: auto;
     left: 610px;
     font-family: 'Rouge Script', cursive;
-    animation: groom-name 12s;
+    animation: groom-name 13s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
@@ -244,7 +244,7 @@ animation-delay: 16s;
     font-size: 40px;
     right: -400px;
 
-    animation: wedding-ceremony 8s;
+    animation: wedding-ceremony 13s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 animation-timing-function: ease-out;
@@ -257,12 +257,12 @@ animation-delay: 25s;
       right: 0px;
   opacity: 0;
   }
-  80%{
-    right: 300px;
+  70%{
+    right: 250px;
     opacity: 1;
   }
   100%{
-    right: 300px;
+    right: 250px;
     opacity: 0;
   }
 }
@@ -274,7 +274,7 @@ position: absolute;
 top: 80px;
 left: -300px;
 
-animation: knot-pic 8s;
+animation: knot-pic 13s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 animation-timing-function: ease-out;
@@ -287,12 +287,12 @@ animation-delay: 25s;
       left: 0px;
   opacity: 0;
   }
-  80%{
-    left: 300px;
+  70%{
+    left: 250px;
     opacity: 1;
   }
   100%{
-    left: 300px;
+    left: 250px;
     opacity: 0;
   }
 }
@@ -311,7 +311,7 @@ animation-delay: 25s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 animation-timing-function: ease-out;
-animation-delay: 32s;
+animation-delay: 38s;
 }
 @keyframes couple {
  
@@ -344,7 +344,7 @@ animation-delay: 32s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
-    animation-delay: 32s;
+    animation-delay: 40s;
 }
 @keyframes date {
  
@@ -374,7 +374,7 @@ animation-delay: 32s;
   left:0px;
   bottom: 0px;
   animation: flowershower1 10s infinite linear;
-  animation-delay: 38s;
+  animation-delay: 43s;
 }
 
 .flower2 {
@@ -387,7 +387,7 @@ animation-delay: 32s;
   left:0px;
   bottom: 0px;
   animation: flowershower2 10s infinite linear;
-  animation-delay: 38s;
+  animation-delay: 43s;
 }
 
 @keyframes flowershower1 {
