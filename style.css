@@ -4,11 +4,13 @@
 body{
     background-image:url("image/card-edit11.jpg");
     position: relative;
-    background-size: cover;
-    width: 100%;
+    /* background-size: cover; */
+    
+    background-repeat: no-repeat;
+    background-size:contain;
     overflow: hidden;
     display: flex;
-    height: 100%;
+    
     margin: 0px;
 }
 .ganesh-img {
@@ -374,7 +376,7 @@ animation-delay: 38s;
   left:0px;
   bottom: 0px;
   animation: flowershower1 10s infinite linear;
-  animation-delay: 43s;
+  animation-delay: 44s;
 }
 
 .flower2 {
@@ -387,7 +389,7 @@ animation-delay: 38s;
   left:0px;
   bottom: 0px;
   animation: flowershower2 10s infinite linear;
-  animation-delay: 43s;
+  animation-delay: 44s;
 }
 
 @keyframes flowershower1 {
@@ -417,3 +419,29 @@ animation-delay: 38s;
     background-repeat: repeat;
   }
 }
+
+
+/* @media (min-width:768px){
+  body{
+    max-width: 738px;
+  }
+  .groom-pic{
+    height: 100px;
+    width: 100px;
+  }
+  .groom {
+    font-size: 16px;
+  }
+}
+@media (min-width:1024px){
+  body{
+    max-width: 990px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .groom-pic{
+    height: 100px;
+    width: 100px;
+  }
+} */
